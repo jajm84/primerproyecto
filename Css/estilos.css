@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+body{
+    font-family:'Roboto', sans-serif;;
+
+}
+
+/*-------inicio----*/
+
+.principal{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image: url(../imagenes/header.fw.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    clear: both;
+    height: 660px;
+    background-size: cover;
+    background-position: center top;
+}
+
+.centrar{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 40px 0; 
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #c1c1c1;
+    padding-top: 15px;
+}
+
+.menu-principal{
+    width: 50%;
+    border: 0px solid white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+}
+
+.navegacion{
+    display: inline-block;
+    padding: 15px 20px;
+    
+}
+
+.navegacion a{
+    color: #fff;
+    text-decoration: none;   
+}
+
+.navegacion a:hover{
+    color: #c1c1c1;
+}
+
+.texto-principal{
+    width: 50%;
+    padding-top: 100px;
+    text-align: left;
+    float: left;
+}
+
+.subtitulo{
+    color: #c1c1c1;
+}
+
+.titulo{
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.paragrah{
+    color: #c1c1c1;
+    margin-bottom: 90px;
+}
+
+.boton{
+    background: #bb3131;
+    color: #fff;
+    font-weight: bold;
+    width: 40%;
+    padding: 15px 20px;
+    border-radius: 7px;
+    border: 0px solid red;
+    text-decoration: none;
+    
+}
+
+.boton:hover{
+    background: #8a2828;
+}
+
+.imagen-servicios{
+    padding-top: 120px;
+}
+    
+
+.img-servicios{
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+/*---------2da parte-------*/
+
+.titulo-nosotros{
+    color: #424141;
+    font-size: 35px;
+    padding-top: 40px;
+}
+.nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+.quienes-somos{
+  
+    margin-top: 20px;
+    
+    
+}
+
+.somos-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.name-titulo{
+    color: #f94f2b;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.descripcion{
+    margin-top: 10px;
+}
+
+/*---------3da parte-------*/
+
+.bloque-elegirnos{
+    margin-top: 40px;
+    height: 630px;
+
+}
+
+
+.titulo-elegirnos{
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.texto-elegirnos{
+    width: 45%;
+    float: right;
+    padding-top: 20px;
+    
+}
+
+.imagen-elegirnos{
+    padding-left: 30px;
+}
+
+.img-elegirnos{
+    width: 48%;
+
+    border: 1px solid;
+    border-radius: 10px;
+
+    float: left;
+    margin-top: 40px;
+}
+
+.aptitudes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    
+    
+}
+
+.texto-aptitudes{
+    padding-top: 20px;
+}
+
+.paragrah-elegir{
+    color: #7d7a7a;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.con-aptitudes{
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 7px;
+    border-left: 5px solid #f94f2b;
+    margin-top: 20px;
+
+    
+}
+
+.img-aptitudes{
+    width: 25%;
+    float: left;
+    
+}
+
+/*-------4ta parte servicios--------*/
+
+.servicios{
+    margin: 0;
+    padding: 0;
+    height: 600px;
+}
+
+.text-naranja{
+    color: #f94f2b;
+    font-size: 20px;
+}
+
+.titulo-serv{
+    color: #424141;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.tipos-servicios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+.servicios-varios{
+    border: solid 1px #c1c1c1;
+    border-radius: 10px;
+    height: 160px;
+    box-shadow: 0px 0px 10px #ccc;
+    
+}
+
+.titulo-servicios{
+    padding-top: 25px;
+
+}
+
+.parrafo-servicios{
+    color: #7d7a7a;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.servicios-img{
+    width: 20%;
+    float: left;
+    padding-top: 25px;
+}
+
+.servicios-img2{
+    width: 18%;
+    float: left;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+/*-------footer------*/
+
+.footer{
+    background-image: url(../imagenes/footer.fw.png);
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    
+}
+
+.footer::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: #fff;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+
+.titulo-footer{
+    padding-bottom: 40px;
+    padding-top: 50px;
+
+}
+
+.footer-texto{
+    color: #c1c1c1;
+    text-align: center;
+    width: 45%;
+    float: left;
+
+}
+
+.numero-contacto{
+    text-align: left;
+    margin-top: 70px;
+}
+
+.formulario-footer{
+    
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-top: 50px;
+ 
+}
+
+.form{
+    padding: 10px;
+    width: 50%;
+    margin: 0px 0px 10px 100px;
+    border-radius: 7px;
+    
+}
+
+.form-boton{
+    width: 15%;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+/*-------DISEÑO RESPONSIVE-----*/
+
+@media screen and (max-width:768px){
+
+    /*-----1ra parte-----*/
+
+    
+
+    .logo{
+        font-size: 14px;
+        text-align: left;
+        width: 30%;
+    }
+
+    .menu{
+        font-size: 15px;
+    }
+
+    .menu-principal{
+        width: 70%;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .navegacion{
+        padding: 5px;
+        
+
+    }
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .texto-principal{
+        width: 100%;
+        padding-top: 60px;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+
+    .paragrah{
+        font-size: 14px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .boton{
+        display: inline-block;
+        padding: 10px;
+        width: 40%;
+        text-align: center;
+          
+    }
+
+    .imagen-servicios{
+        padding-top: 50px;
+        grid-row: 1/2;
+    
+    }
+
+    .img-servicios{
+        width: 50%;
+    }
+
+    /*-------3era parte-----*/
+
+    .bloque-elegirnos{
+    
+        height: auto;
+    }
+
+    .texto-elegirnos{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 450px;
+        
+    }
+
+    .paragrah-elegir{
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+
+
+    .con-aptitudes{
+        margin: 0;
+        font-size: 14px
+
+    }
+
+    .imagen-elegirnos{
+        width: 50%;
+        padding-left: 0px;
+        height: auto;
+        margin-left: 100px;
+        
+        
+    }
+
+    .img-elegirnos{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    /*-------4ta parte-----*/
+
+    .servicios-varios{
+        border: solid 1px #c1c1c1;
+        border-radius: 10px;
+        height: 210px;
+        box-shadow: 0px 0px 10px #ccc;
+        
+    }
+
+    .titulo-servicios{
+        padding-top: 30px;
+    }
+    
+    .parrafo-servicios{
+        
+        padding-top: 39px;
+
+    }
+
+    .servicios-img{
+        width: 30%;
+        float: left;
+        padding-top: 15px;
+    }
+    
+    .servicios-img2{
+        width: 30%;
+        float: left;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+
+    /*------footer------*/
+
+    .titulo-footer{
+        padding-bottom: 40px;
+        padding-top: 50px;
+    
+    }
+    
+    .footer-texto{
+        font-size: 15px;
+        width: 45%;
+       
+    }
+
+    .paragrah-footer{
+        font-size: 12px;
+    }
+    
+    .numero-contacto{
+
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    
+    .formulario-footer{
+        
+        float: right;
+     
+    }
+    
+    .form{
+        padding: 10px;
+        width: 90%;
+        margin: 3px;
+        float: right;
+        
+    }
+    
+    .form-boton{
+        width: 30%;
+        padding: 5px;
+        margin: 5px;
+    }
+
+
+}
